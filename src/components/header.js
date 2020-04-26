@@ -1,9 +1,9 @@
 import React from "react"
 
-function Header() {
+function Header(props) {
     return (
         < header className="header" >
-            <h1>The great<span className="header-color">RGB</span>colour game</h1>
+            <h1>The great<span className="header-color">{props.pickedColor}</span>colour game</h1>
         </header >
     )
 }
