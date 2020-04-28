@@ -1,5 +1,3 @@
-import React from "react"
-
 function RandomColor() {
     //pick a "red" from 0 - 255
     var r = Math.floor(Math.random() * 256);
